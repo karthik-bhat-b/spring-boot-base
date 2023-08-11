@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "users")
-public class User {
+public class User extends AuditModel {
     @Id
     @GeneratedValue(generator = "UUID")
     @Column(name = "ID", updatable = false, nullable = false)

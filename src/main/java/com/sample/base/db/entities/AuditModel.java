@@ -1,5 +1,6 @@
 /**
- * This is Audit MappedSuperclass to keep track of created ar and updated ay informations
+ * @author Karthik Beedubail
+ * This is Audit MappedSuperclass to keep track of created at and updated at informations
  * Entities extending this will get created_at and updated_at columns
  */
 package com.sample.base.db.entities;
