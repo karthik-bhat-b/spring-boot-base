@@ -8,7 +8,7 @@ public class SampleController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		// adding main comment for testing
+		//Testing comment
 		return "Hello";
 	}
 }
